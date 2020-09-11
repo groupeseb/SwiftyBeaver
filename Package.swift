@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftyBeaver",
+    type: .dynamic,
     products: [
         .library(name: "SwiftyBeaver", targets: ["SwiftyBeaver"])
     ],
